@@ -33,7 +33,7 @@ class Jokes extends React.Component {
 					Log Out
 				</button>
 				<h2>Dad Jokes</h2>
-				<div>
+				<div className="listJokes">
 					{this.state.jokes.map((joke) => (
 						<p className="joke" key={joke.id}>
 							{joke.joke}

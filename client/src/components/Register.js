@@ -30,7 +30,7 @@ class Register extends React.Component {
 
 	render() {
 		return (
-			<div className="registerForm">
+			<div className="enterForm">
 				<h2>Register</h2>
 				<form onSubmit={this.submitForm}>
 					<div>
@@ -54,7 +54,9 @@ class Register extends React.Component {
 						/>
 					</div>
 					<div>
-						<button type="submit">Register</button>
+						<button className="submit" type="submit">
+							Submit
+						</button>
 					</div>
 				</form>
 			</div>
